@@ -54,6 +54,7 @@ header .form-control {
     gap: 20px;
     width: 100%;
     font-size: 20px;
+    height: calc(100vh - 200px)
 }
 .bg-blue {
     background-color: #1b73e9;
