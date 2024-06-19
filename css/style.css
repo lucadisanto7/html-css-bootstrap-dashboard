@@ -131,6 +131,9 @@ header .content {
 .offcanvas-end{
     width: 100%;
 }
+.hover-bg-grey:hover{
+    background-color: #d8d8d8;
+}
 /* END OF STYLING */
 
 
