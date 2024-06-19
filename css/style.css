@@ -7,19 +7,16 @@ body {
     overflow-x: hidden;
     overflow-y: hidden;
 }
-.padding-10{
-    padding: 10px;
-}
-header .content {
-    width: 100%;
+
+
+/* LAYOUT */
+.top-section {
+    height: calc(100vh - 100px);
+    display: flex;
 }
 header .form-control {
     max-width: 600px;
     margin: auto;
-}
-.top-section {
-    height: calc(100vh - 100px);
-    display: flex;
 }
 .main-content {
     width: calc(100% - 80px);
@@ -36,6 +33,12 @@ header .form-control {
     padding-top: 30px;
     display: inline-block;
 }
+
+/* END OF LAYOUT */
+
+
+
+/* STYLING */
 .white-text {
     color: white;
 }
@@ -93,6 +96,49 @@ h5{
 .padding-20{
     padding: 20px;
 }
+.padding-10{
+    padding: 10px;
+}
+header .content {
+    width: 100%;
+}
+/* END OF STYLING */
+
+
+
+/* NAVBAR */
 .mobile-logo{
     width: 80px;
 }
+.navbar-brand img {
+    max-height: 80px;
+}
+.search-container {
+    position: relative;
+    flex-grow: 1;
+}
+.search-container input[type="search"] {
+    width: 100%;
+    border-radius: 50px;
+    padding: 0.5rem 1rem 0.5rem 2.5rem;
+    border: 1px solid #ced4da;
+    background-color: #e4e4e5
+}
+.search-container input[type="search"]::placeholder {
+    color: #6c757d;
+    opacity: 1;
+}
+.search-container .fa-search {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: black;
+}
+.navbar .nav-link {
+    color: #000;
+}
+.orange{
+    color: #ffc107;
+}
+/* END OF NAVBAR */
