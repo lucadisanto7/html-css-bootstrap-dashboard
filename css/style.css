@@ -22,6 +22,7 @@ header .form-control {
     width: calc(100% - 80px);
     overflow-y: auto;
     margin: 0 auto;
+    overflow-x: hidden;
 }
 .sidebar {
     width: 80px;
@@ -41,6 +42,9 @@ header .form-control {
 /* STYLING */
 .white-text {
     color: white;
+}
+.grey-text{
+    color: #ced4da;
 }
 .icon-container {
     display: flex;
@@ -102,6 +106,19 @@ h5{
 header .content {
     width: 100%;
 }
+.hover-white:hover{
+    color: white
+}
+.dropdown-toggle::after{
+    display: none;
+}
+.table{
+    margin: auto;
+    width: 90%;
+}
+.table>tbody {
+    vertical-align: middle;
+}
 /* END OF STYLING */
 
 
@@ -116,6 +133,7 @@ header .content {
 .search-container {
     position: relative;
     flex-grow: 1;
+    max-width: 600px;
 }
 .search-container input[type="search"] {
     width: 100%;
@@ -142,3 +160,18 @@ header .content {
     color: #ffc107;
 }
 /* END OF NAVBAR */
+
+
+/* MEDIA QUERY */
+@media screen and (min-width: 768px) {
+    .stud-order{
+        order: 2;
+        text-align: end;
+    }
+    .bool-order{
+        order: 0;
+    }
+    .min-order{
+        order: 1;
+    }
+}
