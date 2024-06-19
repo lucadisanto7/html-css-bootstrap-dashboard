@@ -109,9 +109,6 @@ header .content {
 .hover-white:hover{
     color: white
 }
-.hover-white-bg:hover{
-    background-color: rgb(177, 176, 176);
-}
 .dropdown-toggle::after{
     display: none;
 }
@@ -124,6 +121,15 @@ header .content {
 }
 .text-none{
     text-decoration: none;
+}
+.black-text{
+    color: black;
+}
+.offcanvas-body{
+    text-align: left;
+}
+.offcanvas-end{
+    width: 100%;
 }
 /* END OF STYLING */
 
@@ -144,7 +150,7 @@ header .content {
     color: rgb(48, 48, 48);
 }
 .bg-grey{
-    background-color: #ced4da;
+    background-color: #d8d8d8;
     border-radius: 5px;
     height: 50px;
     border: 0;
@@ -167,6 +173,7 @@ header .content {
         justify-content: end;
         display: flex;
     }
+    
 }
 @media screen and (min-width: 1200px){
     .sidebar{
@@ -181,5 +188,11 @@ header .content {
         width: 100%;
         font-size: 20px;
         height: calc(100vh - 200px)
+    }
+    .hover-white-bg:hover{
+        background-color: rgb(177, 176, 176);
+    }
+    .offcanvas-end{
+        width: 600px;
     }
 }
