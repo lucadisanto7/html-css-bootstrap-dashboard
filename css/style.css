@@ -16,6 +16,7 @@ body {
 }
 header .form-control {
     margin: auto;
+    border-left: 0px;
 }
 .main-content {
     width: calc(100% - 80px);
@@ -133,6 +134,10 @@ header .content {
 .hover-bg-grey:hover{
     background-color: #d8d8d8;
 }
+.bg-lightgrey{
+    background-color: #e9ecef;
+}
+
 /* END OF STYLING */
 
 
@@ -157,8 +162,8 @@ header .content {
     height: 50px;
     border: 0;
 }
-.w-100{
-    flex-basis: 100%;
+.input-group-text{
+    border-right: 0px;
 }
 /* END OF NAVBAR */
 
